@@ -1,0 +1,292 @@
+/* Start The Main Rulez */
+
+body {
+    background-image: url(../images/body.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Cairo', sans-serif
+}
+
+.sections {
+    padding: 70px 0
+}
+
+/* End The Main Rulez */
+
+/* Start Section Intro */
+
+.intro {
+    height: 573px
+}
+
+.intro .item {
+    width: 200px;
+    margin: 150px auto 0
+}
+
+@media (max-width: 768px) {
+    .intro .item {
+        margin: 100px auto 0
+    }
+}
+
+.intro .item img {
+    width: 90%;
+    -webkit-border-radius: 8px 16px 68px -18px rgba(0,0,0,1);
+    -moz-border-radius: 8px 16px 68px -18px rgba(0,0,0,1);
+    -o-border-radius: 8px 16px 68px -18px rgba(0,0,0,1);
+    border-radius: 50%;
+    -webkit-box-shadow: 8px 16px 68px -18px rgba(0,0,0,1);
+    -moz-box-shadow: 8px 16px 68px -18px rgba(0,0,0,1);
+    -o-box-shadow: 8px 16px 68px -18px rgba(0,0,0,1);
+    box-shadow: 8px 16px 68px -18px rgba(0,0,0,1)
+}
+
+.owl-nav {
+    display: none
+}
+
+.intro .personal-info {
+    width: 98%
+}
+
+.intro .personal-info .intro-desc {
+    color: #FFF;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    font-size: 21px
+}
+
+.intro .personal-info .social {
+    font-size: 45px;
+    color: #FFF
+}
+
+.intro .personal-info .social a {
+    color: #FFF
+}
+
+.intro .personal-info .social i {
+    border-radius: 50%;
+    cursor: pointer
+}
+
+.intro .personal-info .down {
+    color: #FFF;
+    cursor: pointer;
+    margin-top: 53px
+}
+
+@media (max-width: 768px) {
+    .intro .personal-info .intro-desc {
+        font-size: 18px
+    }
+    
+    .intro .personal-info .social {
+        font-size: 43px
+    }
+}
+
+/* End Section Intro */
+
+/* Start Section About Me */
+
+.about-me {
+    width: 100%;
+    background-color: #FFF;
+    color: #000;
+    margin-top: 70px
+}
+
+.about-me .about-title {
+    font-size: 45px;
+    margin: 0 0 50px;
+    color: #bd8e93
+}
+
+.about-me .lang {
+    padding: 50px;
+    color: #bd8e93;
+    cursor: pointer;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out
+}
+
+.about-me .lang:hover {
+    background-color: #bd8e93;
+    color: #FFF
+}
+
+.about-me .lang i {
+    font-size: 80px
+}
+
+.about-me .lang h3 {
+    font-size: 32px
+}
+
+@media (max-width: 768px) {
+    .about-me .about-title {
+    font-size: 38px;
+    margin: 0 0 22px;
+    }
+    
+    .about-me .lang {
+        padding: 30px
+    }
+    
+    .about-me .lang i {
+        font-size: 78px
+    }
+    
+    .about-me .lang h3 {
+        font-size: 28px
+    }
+}
+
+/* End Section About Me */
+
+/* Start Section Achievements */
+
+.achiev {
+    width: 100%;
+    overflow: hidden
+}
+
+.achiev .achiev-title {
+    border: 1px solid #FFF;
+    display: inline-block;
+    padding: 15px 70px;
+    color: #FFF;
+    margin: 0 0 50px
+}
+
+.achiev .thumbnail {
+    background-color: transparent;
+    border: 1px solid #FFF;
+    height: 300px
+}
+
+.achiev .thumbnail i {
+    color: #FFF;
+    font-size: 80px;
+    padding-top: 46px
+}
+
+.achiev .thumbnail .caption {
+    direction: rtl
+}
+
+.achiev .thumbnail .caption h3 {
+    color: #FFF
+}
+
+.achiev .thumbnail .caption a {
+    margin-top: 8px
+}
+
+.achiev .thumbnail .caption a:focus {
+    outline: 0
+}
+
+@media (max-width: 768px) {
+    
+    .achiev .achiev-title {
+        padding: 11px 70px
+    }
+    
+    .achiev .thumbnail i {
+        font-size: 70px
+    }
+    
+    .achiev .thumbnail .caption h3 {
+        font-size: 21px
+    }
+}
+
+@media (max-width: 285px) {
+    .achiev .achiev-title {
+        padding: 8px 48px;
+        font-size: 28px
+    }
+}
+
+/* End Section Achievements */
+
+/* Start Section My Interests */
+
+.interests {
+    width: 100%
+}
+
+.interests .interests-title {
+    color: #FFF
+    
+}
+
+.interests .interests-content {
+    margin-top: 45px
+}
+
+.interests .interests-content p {
+    color: #FFF;
+    background-color: #866d6d;
+    padding: 24px 0;
+    font-size: 20px;
+    cursor: pointer;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out
+}
+
+.interests .interests-content p:hover {
+    background-color: #000
+}
+
+@media (max-width: 768px) {
+    .interests .interests-title {
+        font-size: 28px
+    }
+    
+    .interests .interests-content p {
+        padding: 22px 0;
+        font-size: 19px
+    }
+}
+
+/* End Section My Interests */
+
+#scroll-top {
+    color: #DDD;
+    text-align: center;
+    position: fixed;
+    right: 15px;
+    bottom: 8px;
+    cursor: pointer;
+    font-size: 13px;
+    display: none
+}
+
+/* Start Section Footer */
+
+footer {
+    color: #FFF;
+    margin: 15px
+}
+
+footer span {
+    margin-right: 5px;
+    text-transform: capitalize
+}
+
+footer i {
+    font-size: 15px;
+    color: #F00
+}
+
+/* End Section Footer */
